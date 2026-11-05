@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 3</title>
+    <link rel="stylesheet" href="stylesheet3.css">
+<style>
+        #corner-video {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 240px;
+            height: 135px;
+            border: 2px solid white;
+            z-index: 999; /* stays above the full-page link */
+        }
+    </style>
+</head>
+<body>
+     <a href="Page4.html" id="bg3-link"></a>
+<img src="your-photo.jpg" alt="Me" style="position: bottom corner; bottom: 20px; right: 280px; width: 135px; z-index: 999;">
+    <iframe
+        id="corner-video"
+        src="https://www.youtube.com/embed/WgjBaXpuSE4?autoplay=1&mute=1&loop=1&playlist=WgjBaXpuSE4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    </body>
+</html>

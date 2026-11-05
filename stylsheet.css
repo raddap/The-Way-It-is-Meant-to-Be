@@ -1,0 +1,28 @@
+html, body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url("Images/Moab.1.jpg");
+    background-repeat: no-repeat;
+    background-size: 110vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+#borderimg1{
+    border: 1in;
+    padding: 2px;
+    border-image: url(Images/Moab.1.jpg) 50 round;
+    border-color: darkorange;
+}
+#bg-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
