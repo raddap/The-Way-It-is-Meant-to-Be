@@ -13,7 +13,7 @@ html{
 #borderimg1{
     border: 1in;
     padding: 2px;
-    border-image: url(Images/Moab.1.jpg) 50 round;
+    border-image: url(Moab.1.jpg) 50 round;
     border-color: darkorange;
 }
 #bg-link {
