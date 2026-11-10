@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 4</title>
+    <link rel="stylesheet" href="stylesheet4.css">
+    <link rel="stylesheet" href="wiggle.css">
+<style>
+        #corner-video {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 160px;
+            height: 90px;
+            border: 2px solid white;
+            z-index: 999; /* stays above the full-page link */
+        }
+    </style>
+</head>
+<body>
+     <a href="Page5.html" id="bg4-link"></a>
+    <div class="stage" style="--bg-w: 2155; --bg-h: 1407; --x: 34.524%; --y: 62.118%; --w: 7.239%;">
+        <a href="Page5.html" class="wiggle"><img src="Wiggle4.png" alt=""></a>
+    </div>
+    <iframe
+        id="corner-video"
+        src="https://www.youtube.com/embed/WgjBaXpuSE4?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=WgjBaXpuSE4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    <script src="video.js"></script>
+    </body>
+</html>

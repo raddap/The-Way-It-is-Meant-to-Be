@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Art</title>
+    <link rel="stylesheet" href="stylsheet.css">
+    <link rel="stylesheet" href="wiggle.css">
+    <style>
+        #corner-video {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 160px;
+            height: 90px;
+            border: 2px solid white;
+            z-index: 999; /* stays above the full-page link */
+        }
+    </style>
+</head>
+<body>
+    <a href="Page2.html" id="bg-link"></a>
+
+    <div class="stage" style="--bg-w: 2401; --bg-h: 1554; --x: 34.152%; --y: 69.884%; --w: 8.996%;">
+        <a href="Page2.html" class="wiggle"><img src="Wiggle1.png" alt="Sunscreen bottle"></a>
+    </div>
+
+    <iframe
+        id="corner-video"
+        src="https://www.youtube.com/embed/WgjBaXpuSE4?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=WgjBaXpuSE4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+
+    <script src="video.js"></script>
+</body>
+</html>
